@@ -61,7 +61,7 @@ a {
     border: 2px solid var(--main-color);
     background-color: transparent;
     color: var(--main-color);
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: 500;
     padding: 12px 30px;
     transition: 500ms;
@@ -156,21 +156,6 @@ header ul li a {
     font-weight: 500;
     color: var(--main-color);
     transition: 300ms;
-}
-
-header ul li a:after {
-    content: "";
-    position: absolute;
-    transition: 500ms;
-    background-color: var(--secundary-color);
-    height: 2px;
-    width: 0;
-    left: 0;
-    bottom: -10px;
-}
-
-header ul li a:hover:after {
-    width: 100%;
 }
 
 header ul li a:hover {
